@@ -26,10 +26,16 @@
               "src/favicon.ico",
               "src/assets"
             ],
+   
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/frame-9.css",
+              "src/assets/styles/globals.css",
+              "src/assets/styles/styleguide.css"
             ],
+            
+
             "scripts": []
           },
           "configurations": {

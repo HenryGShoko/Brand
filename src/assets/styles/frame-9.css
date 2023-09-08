@@ -1,0 +1,736 @@
+/* screen - frame-9 */
+
+.frame-9 {
+  align-items: flex-start;
+  display: flex;
+  height: 855px;
+  min-width: 866px;
+  overflow-x: hidden;
+}
+
+.frame-9 .frame-1 {
+  align-items: center;
+  background-color: var(--shadeswhite);
+  display: flex;
+  flex-direction: column;
+  height: 3335px;
+  width: 1440px;
+}
+
+.frame-9 .overlap-group-container {
+  height: 680px;
+  position: relative;
+  width: 1440px;
+}
+
+.frame-9 .overlap-group1 {
+  background-image: url(../img/hero-image.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-direction: column;
+  min-height: 600px;
+  padding: 86px 80px;
+  top: 80px;
+  width: 1440px;
+}
+
+.frame-9 .heading {
+  align-items: flex-end;
+  display: flex;
+  height: 58px;
+  margin-top: 204px;
+  min-width: 510px;
+}
+
+.frame-9 .title-is-1 {
+  color: var(--shades100);
+  font-weight: 700;
+  line-height: 67.2px;
+  margin-bottom: -8px;
+  min-width: 495px;
+  white-space: nowrap;
+}
+
+.frame-9 .jos-mourinho-brings {
+  color: var(--shades200);
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 28px;
+  min-height: 50px;
+  width: 574px;
+}
+
+.frame-9 .btn-primary-1 {
+  margin-top: 47px;
+}
+
+.frame-9 .button-2 {
+  align-items: center;
+  background-color: var(--primarymain);
+  border-radius: 25px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.frame-9 .button {
+  color: var(--shadeswhite);
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-9 .overlap-group2 {
+  background-image: url(../img/-bg.png);
+  background-size: 100% 100%;
+  height: 88px;
+  min-width: 1440px;
+  padding: 0 80px;
+  top: 0;
+}
+
+.frame-9 .navbar {
+  align-items: center;
+  background-color: var(--primarymain);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 8px 20px;
+  position: relative;
+  width: 1280px;
+}
+
+.frame-9 .logo {
+  height: 30.94px;
+  position: relative;
+  width: 100px;
+}
+
+.frame-9 .navbar-menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 649px;
+}
+
+.frame-9 .btn-primary {
+  align-items: flex-start;
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.frame-9 .button-1 {
+  align-items: center;
+  background-color: var(--primarymain);
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+}
+
+.frame-9 .btn-primary-2 {
+  flex: 0 0 auto;
+}
+
+.frame-9 .button-3 {
+  align-items: center;
+  background-color: var(--shadeswhite);
+  border-radius: 50px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+}
+
+.frame-9 .button-4 {
+  color: var(--primarymain);
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-9 .what-we-do {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.0px;
+  margin-top: 84px;
+  min-height: 776px;
+  width: 1283px;
+}
+
+.frame-9 .heading-tag {
+  height: 29px;
+  min-width: 197px;
+}
+
+.frame-9 .rectangle-1-2 {
+  margin-top: 5.0px;
+}
+
+.frame-9 .what-we-do-1 {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 28.8px;
+  min-height: 29px;
+  min-width: 135px;
+  white-space: nowrap;
+}
+
+.frame-9 .we-offer-a-complete {
+  color: var(--shades700);
+  font-weight: 700;
+  height: 225px;
+  line-height: 67.2px;
+  margin-top: 46px;
+  width: 1279px;
+}
+
+.frame-9 .flex-row {
+  height: 422px;
+  margin-top: 54px;
+  min-width: 1285px;
+}
+
+.frame-9 .dev {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 422px;
+  width: 296px;
+}
+
+.frame-9 .x-icon {
+  height: 64px;
+  width: 64px;
+}
+
+.frame-9 .web-development-container {
+  height: 41px;
+  margin-top: 52px;
+  position: relative;
+  width: 290px;
+}
+
+.frame-9 .web-development {
+  color: var(--black);
+  font-weight: 700;
+  left: 0;
+  line-height: 28.8px;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.frame-9 .we-use-cutting-edge {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 53px;
+  min-height: 212px;
+  width: 290px;
+}
+
+.frame-9 .uxui {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 399px;
+  width: 294px;
+}
+
+.frame-9 .user-experience-design {
+  color: var(--black);
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-top: 52px;
+  min-height: 41px;
+  width: 290px;
+}
+
+.frame-9 .our-complete-web-des {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 53px;
+  min-height: 189px;
+  width: 290px;
+}
+
+.frame-9 .app {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  min-height: 422px;
+  width: 294px;
+}
+
+.frame-9 .mobile-app-development {
+  color: var(--black);
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-top: 52px;
+  min-height: 41px;
+  width: 290px;
+}
+
+.frame-9 .our-extensive-mobile {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 53px;
+  min-height: 212px;
+  width: 290px;
+}
+
+.frame-9 .blockchain {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  min-height: 422px;
+  width: 295px;
+}
+
+.frame-9 .blockchain-solutions {
+  color: var(--black);
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-left: 1px;
+  margin-top: 52px;
+  min-height: 41px;
+  width: 290px;
+}
+
+.frame-9 .we-conduct-market-re {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 53px;
+  min-height: 212px;
+  width: 290px;
+}
+
+.frame-9 .case-studies {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  margin-right: 1.0px;
+  margin-top: 50px;
+  min-height: 486px;
+  width: 1279px;
+}
+
+.frame-9 .heading-1 {
+  height: 30px;
+  min-width: 185px;
+}
+
+.frame-9 .rectangle-1 {
+  background-color: var(--primaryactive);
+  height: 4px;
+  margin-bottom: 6.0px;
+  width: 40px;
+}
+
+.frame-9 .surname {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  min-width: 123px;
+  white-space: nowrap;
+}
+
+.frame-9 .card-square-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 41px;
+  min-width: 1279px;
+}
+
+.frame-9 .card-square {
+  align-items: flex-start;
+  background-color: var(--shadeswhite);
+  box-shadow: 0px 8px 16px #3636361a;
+  display: flex;
+  flex-direction: column;
+  height: 399px;
+  position: relative;
+  width: 399px;
+}
+
+.frame-9 .card-image {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.frame-9 .x1280x960 {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.frame-9 .card-content-1 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 24px;
+  position: absolute;
+  top: 229px;
+  width: 399px;
+}
+
+.frame-9 .rectangle-1-1 {
+  background-color: var(--primaryactive);
+  position: relative;
+}
+
+.frame-9 .card-title {
+  color: var(--shadeswhite);
+  font-weight: 700;
+  line-height: 38.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-9 .lorem-ipsum-dolor-si {
+  align-self: stretch;
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.frame-9 .card-image-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--shadeswhite);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.frame-9 .card-content {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 24px;
+  position: absolute;
+  top: 229px;
+  width: 399px;
+}
+
+.frame-9 .brands {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.0px;
+  margin-top: 72px;
+  min-height: 575px;
+  width: 1283px;
+}
+
+.frame-9 .heading-tag-1 {
+  margin-left: 1px;
+  min-width: 308px;
+}
+
+.frame-9 .youll-be-in-good-company {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 30px;
+  min-width: 247px;
+  white-space: nowrap;
+}
+
+.frame-9 .trusted-by-leading-brands {
+  color: var(--shades700);
+  font-weight: 700;
+  height: 68px;
+  line-height: 67.2px;
+  margin-left: 1px;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.frame-9 .brands-top-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 87px;
+  min-width: 1280px;
+}
+
+.frame-9 .brand {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 40px 63px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .visa-black {
+  height: 40px;
+  margin-left: -0.23px;
+  margin-right: -0.23px;
+  position: relative;
+  width: 130.46px;
+}
+
+.frame-9 .brands-middle-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1px;
+  min-width: 1280px;
+}
+
+.frame-9 .frame-4 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .frame-5 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .frame-6 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .frame-7 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .frame-8 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .brands-bottom-row {
+  height: 120px;
+  width: 1280px;
+}
+
+.frame-9 .flex-row-1 {
+  align-items: flex-end;
+  background-color: var(--primarydark);
+  display: flex;
+  gap: 37px;
+  height: 500px;
+  margin-top: 87px;
+  min-width: 1440px;
+  padding: 19px 79px;
+}
+
+.frame-9 .flex-col {
+  flex-direction: column;
+  min-height: 410px;
+  width: 623px;
+}
+
+.frame-9 .heading-tag-2 {
+  min-width: 164px;
+}
+
+.frame-9 .rectangle-1-3 {
+  background-color: var(--primaryactive);
+  margin-bottom: 4.0px;
+}
+
+.frame-9 .contact-us {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  min-width: 103px;
+  white-space: nowrap;
+}
+
+.frame-9 .have-a-project-in-mi {
+  color: var(--shades200);
+  font-weight: 700;
+  line-height: 56.0px;
+  margin-top: 34px;
+  min-height: 112px;
+}
+
+.frame-9 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 127px;
+  margin-left: 1px;
+  margin-top: 107px;
+  min-width: 622px;
+}
+
+.frame-9 .terms-of-service-pri {
+  align-self: flex-end;
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  min-height: 126px;
+  width: 182px;
+}
+
+.frame-9 .facebook-instagram-twitter {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 39px;
+  min-height: 126px;
+  width: 182px;
+}
+
+.frame-9 .github-linkedin-teams {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 37px;
+  min-height: 126px;
+  width: 182px;
+}
+
+.frame-9 .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  gap: 36px;
+  height: 345px;
+  margin-bottom: 1px;
+  min-width: 621px;
+}
+
+.frame-9 .youtube-behance-dribbble {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  min-height: 126px;
+  width: 182px;
+}
+
+.frame-9 .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  min-height: 345px;
+  width: 403px;
+}
+
+.frame-9 .address {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  min-height: 129px;
+  width: 402px;
+}
+
+.frame-9 .span1 {
+  text-decoration: underline;
+}
+
+.frame-9 .explore-open-jobs-2 {
+  color: var(--shadeswhite);
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 3px;
+  min-height: 126px;
+  width: 400px;
+}
+
+.frame-9 .brand-5 {
+  height: 120px;
+  position: relative;
+  width: 256px;
+}
+
+.frame-9 .btn-primary-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.frame-9 .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-9 .heading-2 {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.frame-9 .heading-tag-3 {
+  align-items: center;
+  display: flex;
+  gap: 19px;
+  height: 30px;
+}
+
+.frame-9 .overlap {
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  position: absolute;
+}
+
+.frame-9 .rectangle-1-4 {
+  height: 4px;
+  width: 40px;
+}

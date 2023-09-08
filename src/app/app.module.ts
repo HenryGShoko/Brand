@@ -13,9 +13,18 @@ import { ServiceCategoriesComponent } from './service-categories/service-categor
 import { CaseStudiesComponent } from './case-studies/case-studies.component';
 import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
+import { WhatWeDoModule } from './what-we-do/what-we-do.module';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, BannerComponent, ServiceCategoriesComponent, CaseStudiesComponent, BrandsComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    BannerComponent,
+    ServiceCategoriesComponent,
+    CaseStudiesComponent,
+    BrandsComponent,
+    FooterComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -23,6 +32,7 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    WhatWeDoModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

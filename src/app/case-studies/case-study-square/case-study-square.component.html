@@ -1,0 +1,12 @@
+<div class="card-square-container">
+  <article class="card-square" *ngFor="let card of cards">
+    <div class="card-image">
+      <img class="x1280x960" [src]="card.imageUrl" [alt]="card.altText" />
+    </div>
+    <div class="card-content-1">
+      <div class="rectangle-1-1 rectangle-1-4"></div>
+      <div class="card-title headingis-3">{{ card.title }}</div>
+      <p class="lorem-ipsum-dolor-si textdefault-16">{{ card.description }}</p>
+    </div>
+  </article>
+</div>

@@ -10,10 +10,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { BannerComponent } from './banner/banner.component';
 import { ServiceCategoriesComponent } from './service-categories/service-categories.component';
-import { CaseStudiesComponent } from './case-studies/case-studies.component';
 import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { WhatWeDoModule } from './what-we-do/what-we-do.module';
+import { CaseStudiesModule } from './case-studies/case-studies.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,6 @@ import { WhatWeDoModule } from './what-we-do/what-we-do.module';
     NavbarComponent,
     BannerComponent,
     ServiceCategoriesComponent,
-    CaseStudiesComponent,
     BrandsComponent,
     FooterComponent,
   ],
@@ -33,6 +32,7 @@ import { WhatWeDoModule } from './what-we-do/what-we-do.module';
     MatIconModule,
     MatButtonModule,
     WhatWeDoModule,
+    CaseStudiesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

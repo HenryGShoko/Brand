@@ -14,6 +14,7 @@ import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { WhatWeDoModule } from './what-we-do/what-we-do.module';
 import { CaseStudiesModule } from './case-studies/case-studies.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CaseStudiesModule } from './case-studies/case-studies.module';
     MatButtonModule,
     WhatWeDoModule,
     CaseStudiesModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

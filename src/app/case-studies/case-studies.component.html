@@ -1,49 +1,37 @@
-<p-carousel
-  [value]="cards"
-  styleClass="custom-carousel"
-  [numVisible]="3"
-  [numScroll]="1"
-  [circular]="true"
-  [autoplayInterval]="3000"
->
-  <ng-template pTemplate="header">
-    <h5>Circular, AutoPlay, 3 Items per Page and Scroll by 1</h5>
-  </ng-template>
-  <ng-template let-card pTemplate="item">
-    <div class="product-item">
-      <div class="product-item-content">
-        <div class="p-mb-3">
-          <img
-            [src]="card.imageUrl"
-            [alt]="card.altText"
-            class="carousel-img"
-          />
-        </div>
-        <div>
-          <h4 class="p-mb-1">{{ card.title }}</h4>
-          <h6 class="p-mt-0 p-mb-3">{{ card.description }}</h6>
-          <!-- I've commented the badge out since the card data you provided doesn't have an inventoryStatus property. 
-                  <span [class]="'product-badge status-'+card.inventoryStatus.toLowerCase()">{{card.inventoryStatus}}</span>
-                  -->
-          <div class="car-buttons p-mt-5">
-            <p-button
-              type="button"
-              styleClass="p-button p-button-rounded p-mr-2"
-              icon="pi pi-search"
-            ></p-button>
-            <p-button
-              type="button"
-              styleClass="p-button-success p-button-rounded p-mr-2"
-              icon="pi pi-star"
-            ></p-button>
-            <p-button
-              type="button"
-              styleClass="p-button-help p-button-rounded"
-              icon="pi pi-cog"
-            ></p-button>
+<div class="case-studies">
+  <div class="heading-tag-1 heading-tag-3">
+    <div class="rectangle-1"></div>
+    <p class="youll-be-in-good-company subtitleis-5">Case studies</p>
+  </div>
+  <p-carousel
+    [value]="cards"
+    styleClass="custom-carousel"
+    [numVisible]="3"
+    [numScroll]="1"
+    [circular]="true"
+    [autoplayInterval]="3000"
+  >
+    <ng-template let-card pTemplate="item">
+      <div class="product-item">
+        <div class="product-item-content">
+          <div class="p-mb-3 image-container">
+            <!-- Image -->
+            <img
+              [src]="card.imageUrl"
+              [alt]="card.altText"
+              class="carousel-img"
+            />
+
+            <!-- Overlay text (title and description) -->
+            <div class="overlay-text">
+              <div class="heading-container">
+                <h4 class="p-mb-1">{{ card.title }}</h4>
+                <h6 class="p-mt-0 p-mb-3">{{ card.description }}</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </ng-template>
-</p-carousel>
+    </ng-template>
+  </p-carousel>
+</div>

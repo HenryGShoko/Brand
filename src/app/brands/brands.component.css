@@ -1,0 +1,17 @@
+.brands-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-gap: 4px; 
+}
+
+.brand-item {
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.brand-item img {
+  max-height: 60%;
+  width: auto;
+}

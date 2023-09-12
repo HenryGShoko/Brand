@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-case-study-square',
   templateUrl: './case-study-square.component.html',
-  styleUrls: ['./case-study-square.component.css'], // Add any required styles
+  styleUrls: ['./case-study-square.component.css'],
 })
 export class CaseStudySquareComponent implements OnInit {
   cards = [
